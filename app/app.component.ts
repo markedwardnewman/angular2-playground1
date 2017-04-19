@@ -42,7 +42,7 @@ import { HttpDataService } from './http-data.service'
       </p>
       <h3>FUN TIDBITS:</h3>
       <ul>
-        <li>- Open the app side-by-side in both Chrome and Firefox. Refresh both, then in Chrome, type something in the input field. Neat!</li>
+        <li>- In your local dev enviro, open the app side-by-side in both Chrome and Firefox. Refresh both, then in Chrome, type something in the input field. Neat!</li>
         <li>
           - Using TypeScript, you can specify the target ECMAScript version with the CLI --target option like so:<br>
           <code>&nbsp;&nbsp;$ tsc --target ES5</code>
