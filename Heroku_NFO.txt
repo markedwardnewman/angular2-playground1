@@ -1,0 +1,8 @@
+build app locally
+In project's root folder, create a Procfile (no extension) that contains:
+  web: node app.js
+Heroku requires a package.json file to be in the project's root folder before it will build correctly
+push to github
+create new Heroku app
+In project's root folder, set heroku settings like so (angular2-playground1 is the name of the Heroku app):
+  heroku git:remote -a angular2-playground1

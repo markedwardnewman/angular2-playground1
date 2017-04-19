@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "concurrently": "^3.2.0",
-    "lite-server": "^2.2.2",
+    "http-server": "^0.6.1",
     "typescript": "~2.0.10",
     "canonical-path": "0.0.2",
     "tslint": "^3.15.1",
@@ -30,14 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/markedwardnewman/angular2.git"
+    "url": ""
   },
   "scripts": {
-    "build": "tsc -p src/",
-    "build:watch": "tsc -p src/ -w",
     "serve": "lite-server -c=bs-config.json",
-    "prestart": "npm run build",
-    "start": "concurrently \"npm run build:watch\" \"npm run serve\""
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
   },
   "version": "1.0.0"
 }
